@@ -8,7 +8,7 @@ app.get('/hello',function(req,res){
     }
 
     res.json({
-        "message":"Hi " + name
+        "message":"Hello " + name
     })
 });
 
