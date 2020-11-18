@@ -1,5 +1,5 @@
 const awsServerless=require('aws-serverless-express');
-const app=require('./app')
+const app=require('./src/app')
 const server=awsServerless.createServer(app)
 
 exports.handler=(event,context)=>{
