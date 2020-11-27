@@ -2,7 +2,7 @@ var express=require('express')
 var app=express();
 
 app.get('/hello',function(req,res){
-    var name="world"
+    var name="Github"
     if(req.query.name && req.query.name !=' '){
         name=req.query.name
     }
