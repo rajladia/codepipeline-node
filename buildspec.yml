@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - npm install
-      - export BUCKET=codepipeline-node
+      - export BUCKET=codepipeline-node1
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUCKET --output-template-file outputtemplate.yaml
 artifacts:
   type: zip
